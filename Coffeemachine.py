@@ -100,11 +100,11 @@ class CoffeeMachine:
         return "I have enough resources, making you a coffee!"
 
     def _status(self):
-        return (f"""The coffee machine has:\n{self.supplies["water"]} ml of water\n
-            {self.supplies["milk"]} ml of milk\n
-            {self.supplies["coffee beans"]} g of coffee beans\n
-            {self.supplies["disposable cups"]} disposable cups\n
-            {self.supplies["money"]} of money\n""")
+        return (f"""The coffee machine has:\n{self.supplies["water"]} ml of water
+{self.supplies["milk"]} ml of milk
+{self.supplies["coffee beans"]} g of coffee beans
+{self.supplies["disposable cups"]} disposable cups
+{self.supplies["money"]} of money""")
 
 if __name__ == "__main__":
     machine = CoffeeMachine()
